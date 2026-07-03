@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Pinkish Light Base Colors */
+  --color-medical-50: #fff5f8;
+  --color-medical-100: #ffe4ee;
+  --color-medical-200: #ffc2d7;
+  --color-medical-300: #ffa1c2;
+  --color-medical-400: #ff70a2;
+  --color-medical-500: #f72585;
+  --color-medical-600: #db1f72;
+  --color-medical-700: #b5175f;
+  --color-medical-900: #4a0022;
+
+  /* Shade of Blue Accent Colors */
+  --color-medblue-50: #f0f7ff;
+  --color-medblue-100: #e0effe;
+  --color-medblue-200: #b9ddfc;
+  --color-medblue-300: #7cc2fa;
+  --color-medblue-400: #3a9ef6;
+  --color-medblue-500: #0f83e6;
+  --color-medblue-600: #0263b8;
+  --color-medblue-700: #034e94;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5f8;
+  color: #1e293b;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

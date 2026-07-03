@@ -1,0 +1,32 @@
+# Dependency folders
+**/node_modules/
+
+# Environment configurations and secrets
+**/.env
+**/.env.local
+**/.env.*.local
+**/google-key.json
+
+# Build and production outputs
+**/dist/
+**/dist-ssr/
+**/build/
+**/.next/
+**/out/
+
+# Editor and IDE configurations
+**/.vscode/
+**/.idea/
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
+
+# OS metadata
+**/.DS_Store
+Thumbs.db
+
+# Log files
+**/*.log
+**/logs/
